@@ -220,7 +220,7 @@ def simulate_swarm_analysis():
 def main():
     # Title Banner
     console.print(Panel.fit(
-        "[bold blue]🛡️ TrustViz: AI-Powered Fraud Detection System[/bold blue]\n" +
+        "[bold blue]🛡️ CredenceAI: AI-Powered Fraud Detection System[/bold blue]\n" +
         "[italic]Protecting E-commerce Through Multi-Agent AI and Blockchain[/italic]",
         box=box.DOUBLE_EDGE
     ))
@@ -267,7 +267,7 @@ def main():
 
     # Set page config
     st.set_page_config(
-        page_title="TrustViz Demo",
+        page_title="CredenceAI Demo",
         page_icon="🛡️",
         layout="wide",
         initial_sidebar_state="collapsed"
@@ -319,7 +319,7 @@ def main():
         st.session_state.analysis_results = {}
 
     # Header
-    st.markdown("<h1 style='text-align: center;'>🛡️ TrustViz: Multi-Agent Fraud Detection System</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>🛡️ CredenceAI: Multi-Agent Fraud Detection System</h1>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: center;'>Protecting E-commerce Through Multi-Agent AI and Blockchain</p>", unsafe_allow_html=True)
 
     # System Status Dashboard
